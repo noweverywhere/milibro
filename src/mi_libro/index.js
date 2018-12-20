@@ -3,6 +3,11 @@ import React from 'react';
 class MiLibro extends React.Component {
   constructor(props) {
     super(props)
+    this.onScroll.bind(this)
+  }
+
+  onScroll() {
+    console.log('MiLibro ssscrolling')
   }
 
   render () {

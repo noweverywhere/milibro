@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import styles from './App.css'
 import MiLibro from './mi_libro/'
+import './App.css'
 
 class App extends Component {
   render() {
